@@ -1,0 +1,19 @@
+{
+  "name": "gas-circleci-notifier",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "publish": "npm run build && npm run upload",
+    "build": "npm run tsc",
+    "tsc": "tsc",
+    "upload": "gapps upload"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/google-apps-script": "^0.0.11",
+    "typescript": "^2.3.3"
+  }
+}
